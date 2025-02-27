@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trump 'N' Pump - Power & Performance</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        .top-bar {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+        header {
+            background: #fff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .logo {
+            width: 150px;
+            height: 70px;
+        }
+        .search-bar {
+            flex: 1;
+            margin: 0 60px;
+            position: relative;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 16px;
+            padding-left: 40px;
+        }
+        .search-bar-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #888;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+            font-size: 16px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            background: url('https://i.imgur.com/7e8UAxA.png') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .cta {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #60c4ec;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .categories div {
+            background: #f5f5f5;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        Release Week: Bis zu -55% auf alle Produkte!
+    </div>
+    <header>
+        <img class="logo" src="https://i.imgur.com/52fCSFP.png" alt="Trump 'N' Pump Logo">
+        <div class="search-bar">
+            <span class="search-bar-icon">🔍</span>
+            <input type="text" placeholder="Suche nach Protein, Nahrung...">
+        </div>
+        <nav>
+            <a href="#">Alle Produkte</a>
+            <a href="#">Proteinpulver</a>
+            <a href="#">Food & Snacks</a>
+            <a href="#">🛒</a>
+        </nav>
+    </header>
+    <div class="categories">
+        <div>Aktion</div>
+        <div>Alle Produkte</div>
+        <div>Bestseller</div>
+        <div>Protein Pulver</div>
+        <div>Vitalstoffe</div>
+        <div>Performance</div>
+        <div>Food & Snacks</div>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>RELEASE WEEK</h1>
+            <p>Bis zu -55% auf alles und -80% auf Proben!</p>
+            <a href="#" class="cta">Make your own beast</a>
+        </div>
+    </div>
+    <footer>
+        © 2025 Trump 'N' Pump | Alle Rechte vorbehalten
+    </footer>
+</body>
+</html>
